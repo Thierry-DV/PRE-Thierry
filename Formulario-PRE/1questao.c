@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <math.h>
 
+float numero, quadrado, cubo, raizQuadrada, raizCubica, resto;
+
 int main() {
-    float numero, quadrado, cubo, raizQuadrada, raizCubica, resto;
     
     printf("Digite um numero positivo e maior que zero: ");
     scanf("%f", &numero);
