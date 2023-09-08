@@ -1,3 +1,6 @@
+/*1 questao
+Aluno: Thierry Uchoa de Freitas*/
+
 #include <stdio.h>
 #include <math.h>
 

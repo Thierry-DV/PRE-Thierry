@@ -1,14 +1,16 @@
+/*3 questao
+Aluno: Thierry Uchoa de Freitas*/
+
 #include <stdio.h>
 
 int menor, meio, maior;
 int num1, num2, num3;
+int opcao;
 
 int main() {
 
     printf("Digite tres numeros inteiros positivos separados por espacos: ");
     scanf("%d %d %d", &num1, &num2, &num3);
-
-    int opcao;
 
     printf("Escolha uma das opçoes:\n");
     printf("1 - Mostre os numeros em ordem crescente\n");
@@ -50,7 +52,6 @@ int main() {
             break;
         }
         case 2: {
-            int maior, meio, menor;
             if (num1 > num2 && num1 > num3) {
                 maior = num1;
                 if (num2 > num3) {
@@ -83,7 +84,6 @@ int main() {
             break;
         }
         case 3: {
-            int menor, meio, maior;
             if (num1 < num2 && num1 < num3) {
                 menor = num1;
                 if (num2 < num3) {

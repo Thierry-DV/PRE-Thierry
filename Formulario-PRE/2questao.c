@@ -1,3 +1,6 @@
+/*2 questao
+Aluno: Thierry Uchoa de Freitas*/
+
 #include <stdio.h>
 
 float hora;
