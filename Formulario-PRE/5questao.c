@@ -31,6 +31,7 @@ int main() {
         }
     }
     
+    //calcula a media e a porcentagem
     media_idades = soma_idades / 10;
     porcentagem = ((float)contador_altura_idade / 10) * 100;
     
