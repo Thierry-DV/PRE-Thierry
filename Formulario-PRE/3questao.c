@@ -11,13 +11,15 @@ int main() {
 
     printf("Digite tres numeros inteiros positivos separados por espacos: ");
     scanf("%d %d %d", &num1, &num2, &num3);
-
+    
+    //Ira escolher a opcao que deseja ver sua sequencia de numeros
     printf("Escolha uma das opçoes:\n");
     printf("1 - Mostre os numeros em ordem crescente\n");
     printf("2 - Mostre os numeros em ordem decrescente\n");
     printf("3 - Mostre o menor numero entre os demais no meio dos 2 maiores\n");
     scanf("%d", &opcao);
-
+    
+    //Identifica qual opcao foi escolhida
     switch (opcao) {
         case 1: {
             if (num1 < num2 && num1 < num3) {
