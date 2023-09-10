@@ -19,7 +19,6 @@ int main() {
     segundos = (horas * 3600) + (minutos * 60); // Converte horas e minutos para segundos
 
     if (horas >= 0 && horas <= 23 && minutos >= 0 && minutos <= 59) {
-        printf("Horas: %f horas\n", hora);
         printf("Hora em minutos: %d minutos\n", horas * 60 + minutos);
         printf("Hora em segundos: %d segundos\n", segundos);
     } else {
